@@ -1,0 +1,14 @@
+1) It's better to keep the sources coding in UTF-8. This coding is popular in Unix/Linux Operating Systems.
+So it's necessary for making cross-platform programming code.
+
+In Qt Creator:
+Projects | Editor | Editor Settings | Custom.
+Default encoding: UTF-8
+
+2) The main() function can be defined without parameters.
+
+3) In console application the output information can be directet to terminal or to the internal output panel.
+
+In Qt Creator:
+Projects | Run | Run section
+Option "Run in terminal"
